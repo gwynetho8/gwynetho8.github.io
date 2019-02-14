@@ -1,0 +1,70 @@
+html, body {
+	margin: 0;
+	padding: 0;
+}
+#wrap {
+	width: 1000px;
+	margin: 0 auto;
+}
+/* Comment out later*/
+header, nav, section, footer {
+	background-color: #ddd;
+	/*height: 400px;*/
+	margin: 20px 0;
+}	
+
+header {
+	position: relative;
+	
+}
+
+nav {
+	position: relative;
+	padding: 40px;
+}
+section {
+	background-color: green;
+	overflow: auto;
+}
+
+.redbox {
+	width: 200px; 
+	height: 200px;
+	background-color: red; 
+	position: relative;
+	top: 20px;
+	left: 20px;
+	z-index: 1
+
+}
+
+.billy {clear:left;}
+
+.bluebox{
+	width: 200px; 
+	height: 200px;
+	background-color: blue;
+	z-index: 999;
+}
+.move {
+	position: relative;
+	top: 10px;
+	right: 10px;
+}
+
+.left {
+	background-color: pink;
+	width: 178px;
+	float: left;
+	padding: 10px 10px 10px 10px;
+	border: 1px solid red; 
+
+}
+
+.right {
+	background-color: green;
+	width: 780px;
+	float: right;
+	padding: 10px 10px 10px 10px;
+	
+}
