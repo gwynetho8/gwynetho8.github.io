@@ -1,0 +1,188 @@
+
+@import url('https://fonts.googleapis.com/css?family=Caveat');
+@import url('https://fonts.googleapis.com/css?family=Merienda');
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+
+html {
+	font-size: 12px;
+	
+	
+}
+
+
+body {
+	
+	margin: 0;
+	padding: 0;
+	
+}
+
+body.spring {
+	background-image:url("spring.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	margin: 0;
+	padding: 0;
+	font-size: 1em;
+}
+
+body.fall {
+	background-image:url("fall.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	margin: 0;
+	padding: 0;
+	font-size: 1em;
+}
+
+body.winter {
+	background-image:url("winter.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	margin: 0;
+	padding: 0;
+	font-size: 1em;
+}
+body.summer {
+	background-image:url("summer.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	margin: 0;
+	padding: 0;
+	font-size: 1em;
+}
+
+header {
+	font-family: Merienda, cursive;
+	font-size: 55px;
+	clear: both;
+	text-align:center;
+	background-color: #E58975;
+	
+}
+
+header.spring {
+	background-color: rgba(229, 137, 117, 0.36);
+	
+}
+
+header.winter {
+	background-color: rgba(229, 137, 117, 0.6);
+	
+}
+header.fall {
+	background-color: rgba(229, 137, 117, 0.36);
+	
+}
+header.summer {
+	background-color: rgba(229, 137, 117, 0.36);
+	
+}
+div#wrap {
+	width: 75%;
+	margin: 0 auto;
+}
+figure {
+		height: 100%;
+		width: auto;
+		background-color: black;
+		padding: 10px;
+		float: left;
+		margin: 10px;
+		border: solid;
+		border-color: white;
+		border-width: 2px;
+		text-align: center;
+}
+	
+figure img {
+	width: 160px;
+}
+figcaption {
+	color:white;
+}
+
+
+nav{
+	background-color:  #E58975  ;
+	padding: 10px;
+	text-align: center;
+}
+
+nav ul{
+	margin: 1px;
+	padding: 20px;
+	
+}
+
+
+
+nav li {
+	display: inline;
+	padding: <center>
+	
+}
+
+nav a{
+	color: white;
+
+	font-family: Merienda, cursive;
+	padding: 15px; 
+	background-color: brown;
+	text-decoration: none;
+	padding: <center>;
+	text-align:center;
+	
+}
+
+
+
+nav a:hover {
+	background-color: lightyellow; 
+	color: black;
+}
+
+section {
+	font-family: Lucida Console;
+	text-align: center;
+	overflow: auto;
+}
+	
+	
+footer {
+	font-size:35px;
+	font-family: caveat, cursive;
+	background-color: transparent;
+	padding: 10px;
+	color: grey;
+	text-align: center;
+	clear: both;
+}
+.spring {
+	font-family: caveat, cursive;
+	font-size: 60px;
+	background-repeat: no-repeat;
+}
+.summer {
+	font-family: caveat, cursive;
+	font-size: 60px;
+}
+.fall {
+font-family: caveat, cursive;
+	font-size: 60px;
+}
+
+.winter {
+	font-family: caveat, cursive;
+	font-size: 60px;
+}
+
+section article figure img {
+	height: 100%;
+}
+	
+	
