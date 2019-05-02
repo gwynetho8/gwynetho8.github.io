@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css?family=Asap|Varela+Round');
+
+body {
+	font-family: Varela Round, sans-serif;
+	background-color: #cccac7;
+	margin: 0;
+	padding: 0;
+	background-image:url(bg.jpg);
+	background-repeat:no-repeat;
+	background-position: top center;
+	background-size: 100% ;
+	font-family: Georgia;
+	color: #2b53e2;
+}
+
+#wrap {
+		width: 70%;
+		margin: 0 auto;
+	
+ }
+ 
+ 
+header img{
+	width: 50%
+}
+
+header {
+	background-color: white;
+	padding: 10px;
+	text-align: center;
+	background-size: 100% 
+	background-position: top center;
+	background-repeat: no-repeat;
+	background-image: linear-gradient (#4286f4, #2857a3);
+	font-family: Varela Round, sans-serif;
+	
+	
+	
+}
+
+h1 {
+	color: black; 
+	font-family: Varela Round, sans-serif;
+}
+
+h2 {
+	color: black;
+	font-family: Varela Round, sans-serif;
+
+}
+
+nav {
+background-color: navy;
+padding: 10px;
+text-align: center;
+font-size: 18px;
+font-family: Varela Round, sans-serif;
+	
+}
+
+nav li {
+	display: inline;
+	/*padding: 20px;*/
+	
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	
+}
+
+nav a {
+	color: white;
+	text-decoration: none;
+	padding: 10px 10px;
+	
+}
+
+nav a:hover {
+	color: white;
+	text-decoration: underline;
+	background-color: navy;
+}
+
+section {
+	padding: 10px;
+	background-color: #fff;
+	overflow: auto;
+	font-family: Varela Round, sans-serif;
+	
+	
+}
+
+form{
+	
+width: 50%;
+margin: 0 auto;	
+	
+}
+
+fieldset{
+	background-color:  #ddd;
+	border-radius: 1em;
+}
+
+legend {
+	font-size: 40px; 
+	font-family: Geaorgia, serif;
+	color: navy;
+	font-weight: gold;
+	
+}
+
+input{
+	color: pink;
+	
+}
+
+inputcheckbox {
+	
+	
+}
+
+
+.bgpic {
+	width: 57%;
+	float: right;
+	
+}
+
+.button {
+	background-color: navy;
+	color: white;
+	text-decoration: none;
+	padding: 10px;
+	border-radius: 8px;
+	margin: 15px 0;
+	display: inline-block;
+}
+
+a.button:hover {
+	background:blue;
+	
+}
+
+
+
+footer {
+background-color: navy;	
+color: white;
+	padding: 10px;
+	text-align: center; 
+	
+}
+
+
